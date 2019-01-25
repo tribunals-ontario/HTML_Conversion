@@ -5,9 +5,9 @@ function toggleContrast(cont) {
   //   document.getElementById('pagestyle').setAttribute('href', 'http://www.sjto.gov.on.ca/documents/documents_style2.css');
   // }
   if (cont.checked) {
-    document.getElementById('pagestyle').setAttribute('href', '../../views/css/contrast_letter_styles.css');
+    document.getElementById('pagestyle').setAttribute('href', 'https://tribunals-ontario.github.io/HTML_Conversion/views/css/letter_styles.css');
   } else {
-    document.getElementById('pagestyle').setAttribute('href', '../../views/css/letter_styles.css');
+    document.getElementById('pagestyle').setAttribute('href', 'https://tribunals-ontario.github.io/HTML_Conversion/views/css/Contrast_letter_styles.css');
 	}
 }
 function resizeText(multiplier) {
