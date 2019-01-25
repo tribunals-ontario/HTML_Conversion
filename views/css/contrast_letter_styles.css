@@ -1,0 +1,584 @@
+
+html {
+	background-color: #ffffff;
+}
+body * {
+	font-size: 1em;
+}
+body {
+	min-height: 9in !important;
+	width: 6.5in !important;
+/*	border: 1.5px #000 solid; */
+	padding: 1in 1in .5in 1in;
+	margin: auto !important;
+    font: 1em Arial, Helvetica, sans-serif;
+    color: #ffffff; /*was #444*/
+	line-height: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+	background-color: #000000;
+}
+
+p {
+    margin: 5px 0 5px;
+}
+p img {
+    margin: 0;
+}
+/*p.lead { font-size: 21px; line-height: 27px; color: #777; }*/
+em {
+    font-style: italic;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 80%;
+}
+hr {
+    border-width: 1px 0 0;
+}
+/*hr { border: solid rgba(0, 0, 0, 0.2); border-width: 1px 0 0; clear: both; height: 0; }*/
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+body a {
+    color: #1C72B5;
+    text-decoration: none;
+}
+body a:hover, body a:focus {
+    color: #995588;
+    text-decoration: underline;
+}
+body a:visited {
+    text-decoration: none !important;
+}
+
+a img {
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+}
+
+/* h1 {
+    font-size: 1.80em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.60em;
+    text-align: center;
+}
+h3 {
+    font-size: 1.40em;
+    text-align: center;
+}
+h4 {
+    font-size: 1.20em;
+}
+h5 {
+    font-size: 1.15em;
+}
+h6 { 
+    font-size: 1.00em;
+} */
+
+/* .h4custom {
+    font-size: 1.2em;
+    margin-top:25px;
+    margin-bottom: 5px;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 1em 0em 0.5em 0em;
+}
+
+h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
+    color: #ffffff;
+    background-color: #000000;
+}
+h5 {
+    color: #ffffff;
+}
+h6, h5 a, h6 a {
+    color: #ffffff;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover,
+h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus {
+    color: #1C72B5;
+}
+
+h5 a:hover, h6 a:hover, h5 a:focus, h6 a:focus {
+    color: #1A3A5C;
+}
+
+p, pre, ul, ol {
+    text-align: left;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    margin-left: 4em;
+}
+ul {
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+}
+ul ul {
+    list-style-type: circle;
+    margin-bottom: 0em;
+}
+ul ol, ol ol, ol ul {
+    margin-bottom: 0.5em;
+}
+
+p + ul, p + ol, p + div {
+    margin-top: -0.5em;
+}
+
+td, th { padding: 0.25em 1em 0.25em 0em; }
+
+tr th ul,
+tr td ul,
+tr th ul ul,
+tr td ul ul {
+	margin-left: 2em;
+}
+
+/* To centre a section such as Contact, preferred over in-line attribute in HTML markup */
+.centredSection p { text-align: center;}
+
+/*
+==============
+    TABLES
+==============
+*/
+/* grey and white layered table */
+.this-table {
+    border-collapse: collapse !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+.this-table th {
+	width: 25%;
+    padding: 8px;
+    line-height: 1.4;
+    vertical-align: top;
+    border-top: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    font-weight: bold;
+    font-size: 1.15em;
+    color: #1A3A5C;
+	background-color: #FFF;
+}
+
+.this-table td {
+	width: 25%;
+    padding: 8px;
+    line-height: 1.4;
+    vertical-align: top;
+    border: 3px solid #ddd;
+}
+
+.this-table tr:nth-of-type(odd) {
+     background-color: #f9f9f9 !important;
+}
+
+/* Data table with blue header */
+.dataTable { border-collapse: collapse; border: 1px solid black; margin-left: auto; margin-right: auto; }
+.dataTable th, .dataTable th p { text-align:center; background-color: #ccffff; }
+.dataTable th, .dataTable td { padding: 10px;}
+		
+/* Table of Contents */		
+.toc a { text-decoration: none; }
+.toc a:hover, .toc a:focus {  color: #995588; text-decoration: underline; }
+.toc > ul >li { font-weight: bold;}
+.toc > ul >li >ul >li { font-weight: normal;}
+.toc ul { list-style-type: none;}
+/*
+=================
+      Logo
+=================
+*/
+#logoTitle1 {
+    width: 170px;
+    font-size: 14px !important;
+    padding-right: 60px;
+}
+#logoTitle2 {
+    width: 260px;
+    font-size: 14px !important;
+}
+#logoTitle3 {
+    width: auto;
+}
+#logoTitle1 p, #logoTitle2 p {
+    line-height: 10px;
+}
+#logoTitle3 img {
+    position: relative;
+    width: 90px;
+    top: -7px;
+    right: -24px;
+}
+#logoTitle3Detailed img {
+    position: relative;
+    width: 90px;
+    top: -13px;
+    right: -24px;
+}
+#logoDescription {
+    font-size: 12px !important;
+}
+.tribunal-logo {
+    height:130px;
+}
+.logoLink {
+    text-decoration: none;
+    color: #ffffff;
+}
+.logoLink:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*
+=================
+        Print
+=================
+*/
+.no-print {
+    font-size: 15px !important;
+    float: right;
+    width: 175px;
+    text-align: right;
+}
+.printButton {
+    position: fixed;
+    width: 100px;
+    height: 20px;
+	text-decoration: none;
+	bottom: 217px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.printButtonFR {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+	text-decoration: none;
+	bottom: 217px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.printButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+@media print {
+	.no-print {
+        display: none;
+    }
+    .show-on-print {
+        display: block;
+    }
+    @page {
+        size: 8.5in 11in;
+        margin-top: 1in;
+        margin-bottom: 1in;
+        margin-left: 1in;
+        margin-right: 1in;
+    }
+	body, h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
+		background-color: white;
+		color: black;
+		padding: 0;
+	}
+	.logoLink {
+    text-decoration: none;
+    color: #000000;
+	}
+	.logoLink:hover {
+		text-decoration: none;
+		color: #000000;
+	}
+}
+/*
+=================
+      Save
+=================
+*/
+.saveButton {
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 177px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.saveButtonFR {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 177px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.saveButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+/*
+=================
+      Contrast
+=================
+*/
+.contrastButton {
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 137px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.contrastButtonFR {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 137px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.contrastButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+/*
+=================
+      Font Size
+=================
+*/
+.fontSizeButton {
+    position: fixed;
+    width: 100px;
+    height: 57px;
+    text-decoration: none;
+	bottom: 60px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.fontSizeButtonFR {
+    position: fixed;
+    width: 150px;
+    height: 57px;
+    text-decoration: none;
+	bottom: 60px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+.fontSizeButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+.fontSizeLabel {
+    font-size: 17px;
+}
+.fontSizeIncrease {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    width: 35px;
+    border-radius: 5px 15px;
+}
+.fontSizeDecrease {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    width: 35px;
+    border-radius: 15px 5px;
+}
+/*
+=================
+      Back to Top
+=================
+*/
+#backToTopButton {
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 20px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+#backToTopButtonFR {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+	bottom: 20px; 
+	right: 30px; 
+	text-align: center;
+	z-index: 99; 
+	border: none;
+	outline: none; 
+	background-color: black;
+	color: white; 
+	cursor: pointer; 
+	padding: 5px; 
+	border-radius: 10px; 
+    font-size: 17px;
+}
+#backToTopButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+/*
+=================
+      Lists
+=================
+*/
+#decimal { list-style: decimal !important; }
+#lower-alpha { list-style: lower-alpha !important; }
+
+/*
+=================
+      iFrames (Currently NOT being used)
+=================
+*/        
+#contactFrame {
+	width: 100%;
+	height: 500px;
+	border: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#headerFrame {
+	width: 100%;
+	height: 120px;
+	border: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+/*
+=================
+      Extras
+=================
+*/        
+.ig {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 105%;
+}
+.alpha {
+    list-style-type: lower-alpha;
+}
+.lower-roman {
+    list-style-type: lower-roman;
+}
