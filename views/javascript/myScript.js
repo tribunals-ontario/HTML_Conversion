@@ -7,7 +7,7 @@ function toggleContrast(cont) {
   if (cont.checked) {
     document.getElementById('pagestyle').setAttribute('href', 'https://tribunals-ontario.github.io/HTML_Conversion/views/css/letter_styles.css');
   } else {
-    document.getElementById('pagestyle').setAttribute('href', 'https://tribunals-ontario.github.io/HTML_Conversion/views/css/Contrast_letter_styles.css');
+    document.getElementById('pagestyle').setAttribute('href', 'https://tribunals-ontario.github.io/HTML_Conversion/views/css/contrast_letter_styles.css');
 	}
 }
 function resizeText(multiplier) {
