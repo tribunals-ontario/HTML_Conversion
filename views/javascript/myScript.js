@@ -19,6 +19,6 @@ function resizeText(multiplier) {
 var x=1
 function appendRow()
 {
-   var d = document.getElementById('div');
+   var d = document.getElementById('fieldset');
    d.innerHTML += "<input type='text' id='tst"+ x++ +"'><br >";
 }
