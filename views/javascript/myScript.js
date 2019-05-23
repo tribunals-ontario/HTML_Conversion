@@ -16,3 +16,9 @@ function resizeText(multiplier) {
   }
   document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.05) + "em";
 }
+var x=1
+function appendRow()
+{
+   var d = document.getElementById('div');
+   d.innerHTML += "<input type='text' id='tst"+ x++ +"'><br >";
+}
