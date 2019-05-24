@@ -18,6 +18,6 @@ function resizeText(multiplier) {
 }
  
 function myFunction() {
-  var btn = document.getElementById("myContainer");
+  var btn = document.createElement("FIELDSET");
   document.body.appendChild(btn);
 }
