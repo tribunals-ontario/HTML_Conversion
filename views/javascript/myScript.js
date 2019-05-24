@@ -17,7 +17,3 @@ function resizeText(multiplier) {
   document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.05) + "em";
 }
  
-function myFunction() {
-  var btn = document.createElement("FIELDSET");
-  document.body.appendChild(btn); 
-}
