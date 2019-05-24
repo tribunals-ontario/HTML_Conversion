@@ -16,9 +16,18 @@ function resizeText(multiplier) {
   }
   document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.05) + "em";
 }
-var x=1
-function appendRow()
+ function addRow()
 {
-   var d = document.getElementById('fieldset');
-   d.innerHTML += "<input type='text' id='tst"+ x++ +"'><br >";
+   var arrTables = document.getElementById('myTable');
+   var oRows = arrTables.rows;
+   var numRows = oRows.length;
+
+   var newRow = document.getElementById('myTable').insertRow( numRows );
+   var cell1 = newRow.insertCell(0);
+   var cell2 = newRow.insertCell(1);
+   var cell3 = newRow.insertCell(2);
+
+   cell1.innerHTML = numRows;
+   cell2.innerHTML = numRows;
+   cell3.innerHTML = numRows;
 }
