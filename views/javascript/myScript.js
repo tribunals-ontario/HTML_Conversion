@@ -27,7 +27,7 @@ function resizeText(multiplier) {
    var cell2 = newRow.insertCell(1);
    var cell3 = newRow.insertCell(2);
 
-   cell1.innerHTML = numRows;
-   cell2.innerHTML = numRows;
-   cell3.innerHTML = numRows;
+   cell1.innerHTML = 1;
+   cell2.innerHTML = 1;
+   cell3.innerHTML = 9;
 }
