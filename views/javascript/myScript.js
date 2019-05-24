@@ -31,3 +31,7 @@ function resizeText(multiplier) {
    cell2.innerHTML = 1;
    cell3.innerHTML = 9;
 }
+function myFunction() {
+  var btn = document.getElementById("myContainer");
+  document.body.appendChild(btn);
+}
