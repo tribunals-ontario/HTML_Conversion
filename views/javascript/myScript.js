@@ -25,21 +25,16 @@ y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
 document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
-function addRow()
-{
-   var arrTables = document.getElementById('myTable');
-   var oRows = arrTables.rows;
-   var numRows = oRows.length;
-
-   var newRow = document.getElementById('myTable').insertRow( numRows );
-   var cell1 = newRow.insertCell(0);
-   var cell2 = newRow.insertCell(1);
-   var cell3 = newRow.insertCell(2);
-
-   cell1.innerHTML = numRows;
-   cell2.innerHTML = numRows;
-   cell3.innerHTML = numRows;
+var _counter = 0;
+function Add() {
+    var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
+
 function addRow(tableID) {
 
 			var table = document.getElementById(tableID);
@@ -68,27 +63,59 @@ function addRow(tableID) {
 				}
 			}
 		}
-function deleteRow(tableID) {
-			try {
+		function addRow(tableID) {
+
 			var table = document.getElementById(tableID);
+
 			var rowCount = table.rows.length;
+			var row = table.insertRow(rowCount);
 
-			for(var i=0; i<rowCount; i++) {
-				var row = table.rows[i];
-				var chkbox = row.cells[0].childNodes[0];
-				if(null != chkbox && true == chkbox.checked) {
-					if(rowCount <= 1) {
-						alert("Cannot delete all the rows.");
-						break;
-					}
-					table.deleteRow(i);
-					rowCount--;
-					i--;
+			var colCount = table.rows[0].cells.length;
+
+			for(var i=0; i<colCount; i++) {
+
+				var newcell	= row.insertCell(i);
+
+				newcell.innerHTML = table.rows[0].cells[i].innerHTML;
+				//alert(newcell.childNodes);
+				switch(newcell.childNodes[0].type) {
+					case "text":
+							newcell.childNodes[0].value = "";
+							break;
+					case "checkbox":
+							newcell.childNodes[0].checked = false;
+							break;
+					case "select-one":
+							newcell.childNodes[0].selectedIndex = 0;
+							break;
 				}
-
-
-			}
-			}catch(e) {
-				alert(e);
 			}
 		}
+		
+		var myText = 'Hello world!', 
+    myHTML = '<b>'+myText+'</b>';
+
+function openFile (textToEncode, contentType, newWindow) {
+    // For window.btoa (base64) polyfills, see 
+    // https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
+    var encodedText = window.btoa(textToEncode);
+    var dataURL = 'data:' + contentType + ';base64,' + encodedText;
+    if (newWindow) { // Not useful for application/octet-stream type
+        window.open(dataURL); // To open in a new tab/window
+    }
+    else {
+        window.location = dataURL; // To change the current page
+    }
+}
+
+function Add1() {
+
+        var x = document.getElementById("myDIV3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }
+
