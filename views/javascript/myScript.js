@@ -26,14 +26,7 @@ m = n.getMonth() + 1;
 d = n.getDate();
 document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 var _counter = 0;
-function Add() {
-    var x = document.getElementById("myDIV2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+
 
 function addRow(tableID) {
 
@@ -107,7 +100,14 @@ function openFile (textToEncode, contentType, newWindow) {
         window.location = dataURL; // To change the current page
     }
 }
-
+function Add() {
+    var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 function Add1() {
 
         var x = document.getElementById("myDIV3");
@@ -116,6 +116,69 @@ function Add1() {
   } else {
     x.style.display = "none";
   }
-}
 
+    }function Add2() {
 
+        var x = document.getElementById("myDIV4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add3() {
+
+        var x = document.getElementById("myDIV5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add4() {
+
+        var x = document.getElementById("myDIV6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add5() {
+
+        var x = document.getElementById("myDIV7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add6() {
+
+        var x = document.getElementById("myDIV8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add7() {
+
+        var x = document.getElementById("myDIV9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }function Add8() {
+
+        var x = document.getElementById("myDIV10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+    }
+	
