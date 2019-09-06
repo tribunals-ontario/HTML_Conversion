@@ -1,6 +1,7 @@
 
 html {
 	background-color: #ffffff;
+	scroll-behavior: smooth;
 }
 body * {
 	font-size: 1em;
@@ -165,13 +166,13 @@ tr td ul ul {
 */
 /* grey and white layered table */
 .this-table {
+    table-layout: fixed;
     border-collapse: collapse !important;
     width: 100%;
     max-width: 100%;
 }
 
 .this-table th {
-	width: 25%;
     padding: 8px;
     line-height: 1.4;
     vertical-align: top;
@@ -186,7 +187,6 @@ tr td ul ul {
 }
 
 .this-table td {
-	width: 25%;
     padding: 8px;
     line-height: 1.4;
     vertical-align: top;
