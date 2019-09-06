@@ -173,7 +173,6 @@ tr td ul ul {
 }
 
 .this-table th {
-    word-wrap:break-word;
     padding: 8px;
     line-height: 1.4;
     vertical-align: top;
@@ -188,7 +187,6 @@ tr td ul ul {
 }
 
 .this-table td {
-    word-wrap:break-word;
     padding: 8px;
     line-height: 1.4;
     vertical-align: top;
