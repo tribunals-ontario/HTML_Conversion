@@ -46,11 +46,11 @@ sup {
 }
 
 body a {
-    color: #1C72B5;
+    color: #87CEEB;
     text-decoration: none;
 }
 body a:hover, body a:focus {
-    color: #995588;
+    color: #EE82EE;
     text-decoration: underline;
 }
 body a:visited {
