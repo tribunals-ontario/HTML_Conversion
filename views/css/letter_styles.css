@@ -310,6 +310,11 @@ tr td ul ul {
     text-decoration: none;
     color: black;
 }
+.printButtonFR:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
 @media print {
 	.no-print {
         display: none;
@@ -384,6 +389,11 @@ tr td ul ul {
     text-decoration: none;
     color: black;
 }
+.saveButtonFR:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
 /*
 =================
       Contrast
@@ -430,6 +440,11 @@ tr td ul ul {
     text-decoration: none;
     color: black;
 }
+.contrastButtonFR:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
 /*
 =================
       Font Size
@@ -472,6 +487,11 @@ tr td ul ul {
     font-size: 17px;
 }
 .fontSizeButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
+.fontSizeButtonFR:hover {
     background-color: grey;
     text-decoration: none;
     color: black;
@@ -535,6 +555,11 @@ tr td ul ul {
     font-size: 17px;
 }
 #backToTopButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+}
+#backToTopButtonFR:hover {
     background-color: grey;
     text-decoration: none;
     color: black;
