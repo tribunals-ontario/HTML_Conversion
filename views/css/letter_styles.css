@@ -10,8 +10,8 @@ body {
 	min-height: 9in !important;
 	width: 6.5in !important;
 /*	border: 1.5px #000 solid; */
-	padding: 1in 1in .5in 1in;
-	margin: auto !important;
+	margin: 1in 1in .5in 1in;
+/* 	margin: auto !important; */
     font: 1em Arial, Helvetica, sans-serif;
     color: #000; /*was #444*/
 	line-height: 1.4em;
