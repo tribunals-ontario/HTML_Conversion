@@ -324,7 +324,7 @@ tr td ul ul {
     }
     @page {
         size: 8.5in 11in;
-        margin: 1in !important;
+        padding: 1in !important;
     }
 	body, h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a {
 		background-color: white;
