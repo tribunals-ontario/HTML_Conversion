@@ -324,7 +324,7 @@ tr td ul ul {
     }
     @page {
         size: 8.5in 11in;
-        margin-top: 1in;
+        margin-top: 1in !important;
         margin-bottom: 1in;
         margin-left: 1in;
         margin-right: 1in;
